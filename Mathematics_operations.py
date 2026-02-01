@@ -1,25 +1,14 @@
 """ Perform Basic Mathematical Operations """
 
-num1 = input("Enter a first number: ")
-num2 = input("Enter a second number: ")
-print(num1)
-print(num2)
+num_1 = int(input("Enter a first number: "))
+num_2 = int(input("Enter a second number: "))
 
-# Addition
-Result = int(num1) + int(num2)
-print(Result)
+print(num_1 + num_2)
+print(num_1 - num_2)
+print(num_1 * num_2)
+print(num_1 / num_2)
 
-# Subtraction
-Result = int(num1) - int(num2)
-print(Result)
 
-# Multiplication
-Result = int(num1) * int(num2)
-print(Result)
-
-# Division
-Result = int(num1) / int(num2)
-print(Result)
 
 
 

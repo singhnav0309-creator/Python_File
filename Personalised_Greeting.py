@@ -1,10 +1,10 @@
 """
 Python Program for Greeting"""
-first = input("Enter your first name: ")
-last = input("Enter your last name: ")
-FullName = first + " " + last
-print(FullName)
-print("Hello, ""FullName! " "Welcome " "to " "the Python")
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+Full_Name = first_name + " " + last_name
+print(f"Hello, {Full_Name}! Welcome to the Python program.")
+
 
 
 
